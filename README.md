@@ -1,4 +1,4 @@
-Jaywalker
+Jaywalk
 ==========
 
 Press the YOLO button to record a jaywalk!
