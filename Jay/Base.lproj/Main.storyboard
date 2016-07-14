@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D113c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="MSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZ0-RR-dM5">
+                                <rect key="frame" x="16" y="134" width="288" height="300"/>
+                                <subviews>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMO-T9-f7f">
+                                        <rect key="frame" x="19" y="0.0" width="251" height="159"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="123"/>
+                                        <state key="normal" title="Yolo">
+                                            <color key="titleColor" red="0.1019607843" green="0.83921568629999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="I jaywalked 0 times and the fine for that is $0." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="260" translatesAutoresizingMaskIntoConstraints="NO" id="nMH-cc-J5j">
+                                        <rect key="frame" x="37" y="148" width="238" height="152"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="23"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="WQh-d3-iSA"/>
+                                    <constraint firstAttribute="centerX" secondItem="BMO-T9-f7f" secondAttribute="centerX" id="aei-2o-BZs"/>
+                                    <constraint firstAttribute="centerX" secondItem="BMO-T9-f7f" secondAttribute="centerX" id="l4c-Jh-CbA"/>
+                                    <constraint firstAttribute="width" constant="288" id="zF0-tg-a6H"/>
+                                    <constraint firstAttribute="centerX" secondItem="nMH-cc-J5j" secondAttribute="centerX" constant="-12" id="zlw-A5-2hr"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2c-zx-BXe">
+                                <rect key="frame" x="271" y="515" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="2Au-br-Bta"/>
+                                    <constraint firstAttribute="height" constant="33" id="qkn-wh-OEY"/>
+                                </constraints>
+                                <state key="normal" image="twitterShareButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shareButtonDidTap:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wk0-wz-iyk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="KZ0-RR-dM5" secondAttribute="centerY" id="J93-Oq-7Nj"/>
+                            <constraint firstAttribute="centerX" secondItem="KZ0-RR-dM5" secondAttribute="centerX" id="LAS-1m-BCR"/>
+                            <constraint firstItem="e2c-zx-BXe" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="nYL-bD-9by"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="e2c-zx-BXe" secondAttribute="bottom" constant="20" id="wC4-vh-9hD"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UXK-qo-Bl1" appends="YES" id="seA-vI-TNZ"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="jaywalkInfoText" destination="nMH-cc-J5j" id="k8v-dA-Dgb"/>
+                        <outlet property="shareButton" destination="e2c-zx-BXe" id="3Zy-3O-1JR"/>
+                        <outlet property="yoloButton" destination="BMO-T9-f7f" id="yOf-VV-xU6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="UXK-qo-Bl1">
+                    <connections>
+                        <action selector="yoloButtonDidTap:" destination="vXZ-lx-hvc" id="nIg-YS-i7t"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-11" y="-239"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IiK-aL-KfB">
+            <objects>
+                <viewController id="lkB-yj-8pP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xkx-20-D4u"/>
+                        <viewControllerLayoutGuide type="bottom" id="wUx-5k-Hqf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="W0B-Ap-gv9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Sl-IWD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="481" y="-239"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="twitterShareButton" width="60" height="60"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
