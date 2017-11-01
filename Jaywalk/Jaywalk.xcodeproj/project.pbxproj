@@ -369,7 +369,6 @@
 			baseConfigurationReference = 4DEA4F431DB0C6B7369C9839 /* Pods-Jaywalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99W56MYH4P;
 				INFOPLIST_FILE = Jaywalk/Info.plist;
@@ -386,7 +385,6 @@
 			baseConfigurationReference = 0CE8EF276FF730CEE36583C8 /* Pods-Jaywalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99W56MYH4P;
 				INFOPLIST_FILE = Jaywalk/Info.plist;

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -58,13 +57,13 @@
                                     <constraint firstAttribute="centerX" secondItem="ICf-0Z-n82" secondAttribute="centerX" constant="-12" id="xkh-VU-dZC"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opf-92-55n">
-                                <rect key="frame" x="326" y="614" width="33" height="33"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opf-92-55n">
+                                <rect key="frame" x="326" y="618" width="33" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="33" id="KoQ-4J-YpY"/>
                                     <constraint firstAttribute="height" constant="33" id="Qgz-g2-mfr"/>
                                 </constraints>
-                                <state key="normal" image="twitterShareButton">
+                                <state key="normal" backgroundImage="shareButton">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -76,9 +75,9 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="DBo-Zx-Uwi" secondAttribute="centerX" id="0nz-LF-LJd"/>
-                            <constraint firstItem="opf-92-55n" firstAttribute="trailing" secondItem="dih-on-fHm" secondAttribute="trailingMargin" id="Ysa-1q-FoL"/>
+                            <constraint firstItem="cUR-cg-Fq4" firstAttribute="top" secondItem="opf-92-55n" secondAttribute="bottom" constant="16" id="S1P-or-CfJ"/>
                             <constraint firstAttribute="centerY" secondItem="DBo-Zx-Uwi" secondAttribute="centerY" id="axO-fA-mvW"/>
-                            <constraint firstItem="cUR-cg-Fq4" firstAttribute="top" secondItem="opf-92-55n" secondAttribute="bottom" constant="20" id="paw-IY-VKU"/>
+                            <constraint firstItem="JCc-ac-dke" firstAttribute="trailing" secondItem="opf-92-55n" secondAttribute="trailing" constant="16" id="q2R-Hu-M83"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JCc-ac-dke"/>
                         <connections>
@@ -103,6 +102,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="twitterShareButton" width="16" height="16"/>
+        <image name="shareButton" width="256" height="256"/>
     </resources>
 </document>
