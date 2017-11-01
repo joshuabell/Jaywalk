@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F28D131FA99CB600F5F183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D121FA99CB600F5F183 /* AppDelegate.m */; };
+		04F28D161FA99CB600F5F183 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D151FA99CB600F5F183 /* MSViewController.m */; };
+		04F28D1B1FA99CB600F5F183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F28D1A1FA99CB600F5F183 /* Assets.xcassets */; };
+		04F28D1E1FA99CB600F5F183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F28D1C1FA99CB600F5F183 /* LaunchScreen.storyboard */; };
+		04F28D211FA99CB600F5F183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D201FA99CB600F5F183 /* main.m */; };
+		04F28D2B1FA99DA200F5F183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F28D291FA99DA200F5F183 /* Main.storyboard */; };
+		04F28D301FA99E6500F5F183 /* MSIOSColorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D2C1FA99E6500F5F183 /* MSIOSColorData.m */; };
+		04F28D311FA99E6500F5F183 /* MSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F28D2F1FA99E6500F5F183 /* MSColor.m */; };
+		4D1D2A0AE3EC51EED132ED55 /* libPods-Jaywalk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3389E0652B45F84107827E /* libPods-Jaywalk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F28D0E1FA99CB600F5F183 /* Jaywalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaywalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F28D111FA99CB600F5F183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F28D121FA99CB600F5F183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F28D141FA99CB600F5F183 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		04F28D151FA99CB600F5F183 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		04F28D1A1FA99CB600F5F183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F28D1D1FA99CB600F5F183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F28D1F1FA99CB600F5F183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F28D201FA99CB600F5F183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F28D2A1FA99DA200F5F183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F28D2C1FA99E6500F5F183 /* MSIOSColorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSIOSColorData.m; sourceTree = "<group>"; };
+		04F28D2D1FA99E6500F5F183 /* MSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSColor.h; sourceTree = "<group>"; };
+		04F28D2E1FA99E6500F5F183 /* MSIOSColorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSIOSColorData.h; sourceTree = "<group>"; };
+		04F28D2F1FA99E6500F5F183 /* MSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSColor.m; sourceTree = "<group>"; };
+		0CE8EF276FF730CEE36583C8 /* Pods-Jaywalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaywalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jaywalk/Pods-Jaywalk.release.xcconfig"; sourceTree = "<group>"; };
+		4DEA4F431DB0C6B7369C9839 /* Pods-Jaywalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaywalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jaywalk/Pods-Jaywalk.debug.xcconfig"; sourceTree = "<group>"; };
+		FA3389E0652B45F84107827E /* libPods-Jaywalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jaywalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F28D0B1FA99CB600F5F183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1D2A0AE3EC51EED132ED55 /* libPods-Jaywalk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F28D051FA99CB600F5F183 = {
+			isa = PBXGroup;
+			children = (
+				04F28D101FA99CB600F5F183 /* Jaywalk */,
+				04F28D0F1FA99CB600F5F183 /* Products */,
+				2C0210931C7CB057091ABFC4 /* Pods */,
+				60CD9F323F26F199D374428D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F28D0F1FA99CB600F5F183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F28D0E1FA99CB600F5F183 /* Jaywalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F28D101FA99CB600F5F183 /* Jaywalk */ = {
+			isa = PBXGroup;
+			children = (
+				04F28D2D1FA99E6500F5F183 /* MSColor.h */,
+				04F28D2F1FA99E6500F5F183 /* MSColor.m */,
+				04F28D2E1FA99E6500F5F183 /* MSIOSColorData.h */,
+				04F28D2C1FA99E6500F5F183 /* MSIOSColorData.m */,
+				04F28D291FA99DA200F5F183 /* Main.storyboard */,
+				04F28D111FA99CB600F5F183 /* AppDelegate.h */,
+				04F28D121FA99CB600F5F183 /* AppDelegate.m */,
+				04F28D141FA99CB600F5F183 /* MSViewController.h */,
+				04F28D151FA99CB600F5F183 /* MSViewController.m */,
+				04F28D1A1FA99CB600F5F183 /* Assets.xcassets */,
+				04F28D1C1FA99CB600F5F183 /* LaunchScreen.storyboard */,
+				04F28D1F1FA99CB600F5F183 /* Info.plist */,
+				04F28D201FA99CB600F5F183 /* main.m */,
+			);
+			path = Jaywalk;
+			sourceTree = "<group>";
+		};
+		2C0210931C7CB057091ABFC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA4F431DB0C6B7369C9839 /* Pods-Jaywalk.debug.xcconfig */,
+				0CE8EF276FF730CEE36583C8 /* Pods-Jaywalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60CD9F323F26F199D374428D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3389E0652B45F84107827E /* libPods-Jaywalk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F28D0D1FA99CB600F5F183 /* Jaywalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F28D241FA99CB600F5F183 /* Build configuration list for PBXNativeTarget "Jaywalk" */;
+			buildPhases = (
+				CA95B4385B31CF98A7CB2028 /* [CP] Check Pods Manifest.lock */,
+				04F28D0A1FA99CB600F5F183 /* Sources */,
+				04F28D0B1FA99CB600F5F183 /* Frameworks */,
+				04F28D0C1FA99CB600F5F183 /* Resources */,
+				D15DD56E889708E72CFD9FCC /* [CP] Embed Pods Frameworks */,
+				F55A36B507ABB1AE3B9B4532 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jaywalk;
+			productName = Jaywalk;
+			productReference = 04F28D0E1FA99CB600F5F183 /* Jaywalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F28D061FA99CB600F5F183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = WowCow;
+				TargetAttributes = {
+					04F28D0D1FA99CB600F5F183 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04F28D091FA99CB600F5F183 /* Build configuration list for PBXProject "Jaywalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F28D051FA99CB600F5F183;
+			productRefGroup = 04F28D0F1FA99CB600F5F183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F28D0D1FA99CB600F5F183 /* Jaywalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F28D0C1FA99CB600F5F183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F28D2B1FA99DA200F5F183 /* Main.storyboard in Resources */,
+				04F28D1E1FA99CB600F5F183 /* LaunchScreen.storyboard in Resources */,
+				04F28D1B1FA99CB600F5F183 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA95B4385B31CF98A7CB2028 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jaywalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D15DD56E889708E72CFD9FCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jaywalk/Pods-Jaywalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55A36B507ABB1AE3B9B4532 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jaywalk/Pods-Jaywalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F28D0A1FA99CB600F5F183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F28D161FA99CB600F5F183 /* MSViewController.m in Sources */,
+				04F28D211FA99CB600F5F183 /* main.m in Sources */,
+				04F28D131FA99CB600F5F183 /* AppDelegate.m in Sources */,
+				04F28D311FA99E6500F5F183 /* MSColor.m in Sources */,
+				04F28D301FA99E6500F5F183 /* MSIOSColorData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F28D1C1FA99CB600F5F183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F28D1D1FA99CB600F5F183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04F28D291FA99DA200F5F183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F28D2A1FA99DA200F5F183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F28D221FA99CB600F5F183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F28D231FA99CB600F5F183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F28D251FA99CB600F5F183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEA4F431DB0C6B7369C9839 /* Pods-Jaywalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99W56MYH4P;
+				INFOPLIST_FILE = Jaywalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowcow.Jaywalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F28D261FA99CB600F5F183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE8EF276FF730CEE36583C8 /* Pods-Jaywalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99W56MYH4P;
+				INFOPLIST_FILE = Jaywalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowcow.Jaywalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F28D091FA99CB600F5F183 /* Build configuration list for PBXProject "Jaywalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F28D221FA99CB600F5F183 /* Debug */,
+				04F28D231FA99CB600F5F183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F28D241FA99CB600F5F183 /* Build configuration list for PBXNativeTarget "Jaywalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F28D251FA99CB600F5F183 /* Debug */,
+				04F28D261FA99CB600F5F183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F28D061FA99CB600F5F183 /* Project object */;
+}

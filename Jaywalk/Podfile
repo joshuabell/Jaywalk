@@ -1,0 +1,5 @@
+platform :ios, '7.1'
+
+target 'Jaywalk' do
+  pod 'pop', '~> 1.0'
+end
