@@ -3,5 +3,5 @@ Jaywalk
 
 Press the YOLO button to record a jaywalk!
 
-![App example](../example.png)
+![App example](example.png)
 
